@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <a href="../index.html">Volver al Menu principal</a>
-    <form>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
+    <a href="Taller.html">Volver a Taller</a><br><br>
+    <form action="https://www.w3schools.com/action_page.php" method="POST" target="__blanck">
+        <fieldset>
+            <legend>REGISTRO:</legend><br>
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombreID" name="nombre" required><br><br>
+            <label for="apellido">Apellido:</label><br>
+            <input type="text" id="apellidoID" name="apellido" required><br><br>
+            <label for="usuario">Nombre de usuario(*obligatorio):</label><br>
+            <input type="text" id="usuarioID" name="usuario" required><br><br>
+            <label for="email">Correo electrónico (*obligatorio):</label><br>
+            <input type="email" id="emailID" name="email" required><br><br>
+            <label for="password">Contraseña(*obligatorio):</label><br>
+            <input type="password" id="passwordID" name="password" required><br><br>
+            <!--Vamos a validar con JS mientras el usuario está todavia escribiendo para experiencia más dinámica de ususario mientras escribe-->
+            <label for="rpassword">Repetir contraseña (*obligatorio):</label><br>
+            <input type="password" id="rpasswordID" name="rpassword" required><br><br>
+            <input type="submit" value="ENVIAR">
+        </fieldset>
 
     </form>
 </body>
+
 </html>
