@@ -12,13 +12,13 @@
     <a href="Taller.html">Volver a Taller</a><br><br>
     <form action="https://www.w3schools.com/action_page.php" method="POST" target="__blanck">
         <fieldset>
-            <legend>REGISTRO:</legend><br>
+            <legend><b>REGISTRO:</b></legend><br>
             <label for="nombre">Nombre:</label><br>
             <input type="text" id="nombreID" name="nombre" required><br><br>
             <label for="apellido">Apellido:</label><br>
             <input type="text" id="apellidoID" name="apellido" required><br><br>
             <label for="usuario">Nombre de usuario(*obligatorio):</label><br>
-            <input type="text" id="usuarioID" name="usuario" required><br><br>
+            <input type="text" id="usuarioID" name="usuario" maxlength="12" required><br><br>
             <label for="email">Correo electrónico (*obligatorio):</label><br>
             <input type="email" id="emailID" name="email" required><br><br>
             <label for="password">Contraseña(*obligatorio):</label><br>
@@ -26,7 +26,37 @@
             <!--Vamos a validar con JS mientras el usuario está todavia escribiendo para experiencia más dinámica de ususario mientras escribe-->
             <label for="rpassword">Repetir contraseña (*obligatorio):</label><br>
             <input type="password" id="rpasswordID" name="rpassword" required><br><br>
-            <input type="submit" value="ENVIAR">
+
+   
+        <br><br>
+      
+            <legend><b>ACERCA DE TÍ:</b></legend><br>
+            <label for="areas"><b>Áreas de interés:</b></label><br>
+            <input type="checkbox" name="opcion" value="1">Artes Plásticas<br>
+            <input type="checkbox" name="opcion" value="2">Arte Público y muralismo<br>
+            <input type="checkbox" name="opcion" value="3">Arte Sonoro<br>
+            <input type="checkbox" name="opcion" value="4">Artes Visuales<br>
+            <input type="checkbox" name="opcion" value="5">Bioarte<br>
+            <input type="checkbox" name="opcion" value="6">Biofabricación<br>
+            <input type="checkbox" name="opcion" value="7">Ciencia ciudadana<br>
+            <input type="checkbox" name="opcion" value="8">Ciencia ficción<br>
+            <input type="checkbox" name="opcion" value="9">Coproducción Sciart<br>
+            <input type="checkbox" name="opcion" value="10">Diseño de materiales<br>
+            <input type="checkbox" name="opcion" value="11">Filosofía<br>
+            <input type="checkbox" name="opcion" value="12">Narrativas especulativas<br>
+            <input type="checkbox" name="opcion" value="13">Narrativas Visuales & storyboards<br>
+            <input type="checkbox" name="opcion" value="14">Tecnologías abiertas<br>
+            <input type="checkbox" name="opcion" value="15">Tecnología aplicada al Arte<br>
+            <input type="checkbox" name="opcion" value="16">Tecnologías de la información (TICs)<br><br>
+
+
+            <label for="Bio"><b>BIO (*máximo 500 caracteres)</b><br>
+                <textarea name="bio"rows="20" cols="60" maxlength="500">Cuéntanos acerca de tí</textarea><br><br>
+            
+                <input type="submit" value="ENVIAR">
+                <br><br>
+           
+
         </fieldset>
 
     </form>
