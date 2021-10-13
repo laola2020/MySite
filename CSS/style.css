@@ -7,3 +7,9 @@ esto es un comentario
     color:black;
 }
 
+footer{
+    background-color:rgb(42, 22, 97);
+    color:white;
+    font-size: 4vw;
+    font-family: 'Nunito', sans-serif;
+}
