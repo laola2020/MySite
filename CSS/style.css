@@ -11,7 +11,12 @@ header{
     font-size:1.5vw;
     font-family: 'Nunito', sans-serif;
 }
-
+body{
+    background-color:rgb(42, 22, 97);
+    color:white;
+    font-size:1vw;
+    font-family: 'Nunito Sans', sans-serif;
+}
 footer{
     background-color:rgb(42, 22, 97);
     color:white;
@@ -19,10 +24,13 @@ footer{
     font-family: 'Nunito', sans-serif;
 }
 
-a > img {padding: 1em;
+td {padding-top: 15px;
+    margin-bottom: 20px;
     border-style: dotted;
-    margin: 1em;
-    border-style: double;}
+    }
+
+ /*   margin: 3em;
+    border-style: double; */
 
 /*provisoriamente le ponemos a IMAGENES un borde punteado para delimitarlas claramente durante el rpocesos de diseño
 img{border-style: dotted;}*/
