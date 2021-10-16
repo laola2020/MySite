@@ -11,10 +11,10 @@ header{
     font-size:1.5vw;
     font-family: 'Nunito', sans-serif;
 }
-body{
-    background-color:rgb(42, 22, 97);
-    color:white;
-    font-size:1vw;
+main{
+    background-color:white (42, 22, 97);
+    color:black;
+    font: size 15px;;
     font-family: 'Nunito Sans', sans-serif;
 }
 footer{
